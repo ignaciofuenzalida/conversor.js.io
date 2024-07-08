@@ -1,4 +1,4 @@
-// script.js
+
 document.getElementById('convert').addEventListener('click', convertCurrency);
 
 async function convertCurrency() {
@@ -18,7 +18,7 @@ async function convertCurrency() {
 
         document.getElementById('result').textContent = `Monto en ${currency.toUpperCase()}: ${result.toFixed(2)}`;
 
-        // Fetch historical data and update chart
+    
         updateChart(currency);
     } catch (error) {
         console.error('Error fetching data:', error);
