@@ -41,8 +41,8 @@ async function updateChart(currency) {
                 datasets: [{
                     label: `Historial de ${currency.toUpperCase()}`,
                     data: values,
-                    borderColor: 'rgba(75, 192, 192, 1)',
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(255, 0, 0, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 2)',
                     borderWidth: 1
                 }]
             },
